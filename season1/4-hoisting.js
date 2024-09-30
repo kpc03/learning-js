@@ -7,6 +7,7 @@ var n = 2;
 const x = 29;
 
 console.log(n);
+console.log(square(5));
 
 function square(num){ //here num is parameter
     var ans = num * num;
