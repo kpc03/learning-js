@@ -1,0 +1,73 @@
+By ID	
+document.getElementById()	
+document.getElementById("idName");
+const element = document.getElementById("header");
+Single Element
+
+By Class	
+document.getElementsByClassName()	
+document.getElementsByClassName("className");
+const elements = document.getElementsByClassName("box");
+HTMLCollection
+
+By Tag	
+document.getElementsByTagName()	
+document.getElementsByTagName("tagName");
+const elements = document.getElementsByTagName("div");
+HTMLCollection
+
+First Match by Selector	
+document.querySelector()	
+document.querySelector("selector");
+const element = document.querySelector(".box"); // Selects first element with class "box"
+const element = document.querySelector("#header"); // Selects the element with ID "header"
+Single Element
+
+All Matches by Selector	
+document.querySelectorAll()	
+document.querySelectorAll("selector");
+const elements = document.querySelectorAll(".box"); // Selects all elements with class "box"
+const elements = document.querySelectorAll("div.box"); // Selects all <div> elements with class "box"
+NodeList
+
+By Name	
+document.getElementsByName()	
+document.getElementsByName("nameAttribute");
+const elements = document.getElementsByName("username");
+NodeList
+
+By Attribute
+document.querySelector("[data-custom='value']");
+const element = document.querySelector("[data-id='123']");
+
+
+Parent Node	
+.parentNode	
+const parent = document.getElementById("child").parentNode;
+Single Element
+
+Children	
+.children	
+const children = document.getElementById("container").children;
+
+element.firstChild; // Includes text, comments, etc.
+element.firstElementChild; // First child element only
+
+element.lastChild; // Includes text, comments, etc.
+element.lastElementChild; // Last child element only
+
+element.nextSibling; // Includes text, comments, etc.
+element.nextElementSibling; // Next sibling element only
+
+element.previousSibling; // Includes text, comments, etc.
+element.previousElementSibling; // Previous sibling element only
+HTMLCollection
+
+Siblings (Next/Previous)	
+.nextElementSibling/.previousElementSibling	
+Single Element
+
+Methods
+const isBox = element.matches(".box");
+const parentBox = element.closest(".container");
+parentElement.contains(childElement);
