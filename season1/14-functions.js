@@ -15,7 +15,7 @@ var b = function (){
 /*
     The difference between function statement & function expression is of hoisting. If I call function a() before even defining the function it will print whatever the function is returning but if I call b() which is function expression before its defined then it will throw typeError and says b is not an function.
 
-    Why its stating the b() is not a function - because right now on its a variable which is undefined and not yet a function until it reached line no 8;
+    Why its stating the b() is not a function - because right now on its a variable which is undefined and not yet a function until it reached line no 12;
 
     They can use anonymous functions.
 */
