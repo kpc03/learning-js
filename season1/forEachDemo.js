@@ -10,3 +10,12 @@ number.forEach(function(item){
     console.log(item);
     console.log(number.length);
 });
+
+
+function x(){
+    console.log("hello");
+}
+
+function y(x){
+    x();
+}
