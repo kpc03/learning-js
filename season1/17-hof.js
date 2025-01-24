@@ -70,6 +70,13 @@ console.log(calculate(radius, area));
 console.log(calculate(radius, circumference));
 console.log(calculate(radius, diameter));
 
+console.log('Printing through map function - ', radius.map(area));
+
 // AKSHAY ALSO EXPLAINED THAT LINE NO 61-67 ACTUALLY WORKED SAME AS .MAP() WHERE IT TRAVERSE THE ARRAY AND RETURNS THE ARRAY.
+
+console.log(Array.prototype);
+
+
+
 
 
